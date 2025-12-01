@@ -1,0 +1,11 @@
+# DocuGenAI - Notebook Version Dependencies
+
+# LLM API
+google-generativeai>=0.3.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Jupyter
+jupyter>=1.0.0
+ipywidgets>=8.0.0

@@ -12,7 +12,7 @@
 ----------------------------------------------------------------------
 GENERATED README FOR FRAUD DETECTION PROJECT:
 ----------------------------------------------------------------------
-```markdown
+
 # Credit Card Fraud Detection System
 
 ## Overview
@@ -96,7 +96,7 @@ Once Jupyter Notebook is running (either locally or via Binder):
     *   Training and evaluating Logistic Regression, Random Forest, and XGBoost models.
     *   Visualizing model performance metrics, with a focus on recall.
 3.  Feel free to experiment with different parameters, explore alternative models, or modify the data preprocessing steps within the notebook to observe their impact on fraud detection performance.
-```
+
 
 [Total README length: 4571 characters]
 
@@ -104,10 +104,16 @@ Once Jupyter Notebook is running (either locally or via Binder):
 
 ```mermaid
 graph TD
-    A[Raw Transaction Data] --> B{Data Preprocessing & Imbalance Handling}
-    B --> C[Model Training (LR, RF, XGBoost)]
-    C --> D{Model Evaluation & Selection (Recall)}
-    D --> E[Fraud Detection System / Interactive Demo]
+    A[Raw Credit Card Data] --> B
+    
+    subgraph System [Credit Card Fraud Detection System]
+        direction TB
+        B[Data Preprocessing] --> C[Handle Imbalance<br/>SMOTE]
+        C --> D[Train ML Models<br/>LR, RF, XGBoost]
+        D --> E[Evaluate Models<br/>Recall Focus]
+    end
+
+    E --> F((Deployed Model))
 ```
 
 ## Interactive Q&A (demonstrating conversation memory)

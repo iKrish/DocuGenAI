@@ -1,7 +1,7 @@
 # DocuGenAI: Automated Code Documentation Generator
 **AI-Powered Documentation with Mind Map Visualization**
 
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](DocuGenAI/docugenai-demo-a4.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iKrish/DocuGenAI/main?filepath=DocuGenAI/docugenai-demo-a4.ipynb)
 
 ---
 

@@ -1,6 +1,6 @@
 # DocuGenAI: Automated Code Documentation Generator
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iKrish/DocuGenAI/main?filepath=docugenai-demo-a4.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iKrish/DocuGenAI/main?labpath=docugenai-demo-a4.ipynb)
 
 **LLM-Powered Repository Analysis and Documentation** using Google Gemini 2.5 Flash
 
@@ -12,7 +12,7 @@ This project demonstrates an AI-powered system that automatically generates comp
 
 ### Option 1: Run on MyBinder (Recommended for Demo)
 
-**Click the badge above** or visit: [Launch on MyBinder](https://mybinder.org/v2/gh/iKrish/DocuGenAI/main?filepath=docugenai-demo-a4.ipynb)
+**Click the badge above** or visit: [Launch on MyBinder](https://mybinder.org/v2/gh/iKrish/DocuGenAI/main?labpath=docugenai-demo-a4.ipynb)
 
 **First-time setup on MyBinder:**
 1. Wait 2-3 minutes for environment to build

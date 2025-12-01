@@ -1,11 +1,12 @@
-# DocuGenAI - Notebook Version Dependencies
+# DocuGenAI - Automated Code Documentation Generator
+# Assignment 4 - LLM Application Demo
 
-# LLM API
-google-generativeai>=0.3.0
+# LLM API - Upgraded to latest version
+google-generativeai>=0.8.0
 
-# Utilities
+# Environment management
 python-dotenv>=1.0.0
 
-# Jupyter
+# Development (optional)
 jupyter>=1.0.0
 ipywidgets>=8.0.0
